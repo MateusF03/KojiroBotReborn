@@ -117,8 +117,6 @@ public class DACommand implements EventListener {
                 if (!message.getAuthor().getId().equals("175653597982359552")) return;
                 event.getJDA().shutdown();
                 System.exit(0);
-            }else if (messageContent.equalsIgnoreCase("_teste")) {
-                textChannel.sendMessage("olá").queue();
             }
         }
     }
